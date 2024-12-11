@@ -114,10 +114,10 @@ export default function Page() {
                 </select>
               </div>
             </div>
-            <div className="third w-full">
-              <div className="city flex flex-col gap-3 w-full lg:w-[45%]">
+            <div className=" w-full">
+              <div className="flex flex-col gap-3 w-full lg:w-[45%]">
                 <label className="font-bold" htmlFor="city">Time</label>
-                <select title="cit" border className="bg-[#f6f7f9] px-8 h-[56px] rounded-xl">
+                <select   className="bg-[#f6f7f9] px-8 h-[56px] rounded-xl">
                   <option value="">Select Your Time</option>
                   <option value="" >08:00 AM</option>
                     <option value="" >09:00 AM</option>
@@ -154,7 +154,7 @@ export default function Page() {
             <div className="sec w-full flex flex-wrap gap-4">
               <div className="add flex flex-col gap-3 w-full lg:w-[46%]">
                 <label className="font-bold" htmlFor="add">Locations</label>
-                <select title="city" border className="bg-[#f6f7f9] px-8 h-[56px] rounded-xl">
+                <select title="city"  className="bg-[#f6f7f9] px-8 h-[56px] rounded-xl">
                   <option value="">Select Your City</option>
                   <option value="1">Karachi</option>
                     <option value="1">Islamabad</option>
@@ -165,7 +165,7 @@ export default function Page() {
               </div>
               <div className="city flex flex-col gap-3 w-full lg:w-[50%]">
                 <label className="font-bold" htmlFor="city">Date</label>
-                <select title="cty" border className="bg-[#f6f7f9] px-8 h-[56px] rounded-xl">
+                <select title="cty"  className="bg-[#f6f7f9] px-8 h-[56px] rounded-xl">
                   <option value="">Select Your Date</option>
                   <option value="" >1</option>
                     <option value="" >2</option>
@@ -204,7 +204,7 @@ export default function Page() {
             <div className="third w-full">
               <div className="city flex flex-col gap-3 w-full lg:w-[45%]">
                 <label className="font-bold" htmlFor="city">Time</label>
-                <select title="cit" border className="bg-[#f6f7f9] px-8 h-[56px] rounded-xl">
+                <select title="cit"  className="bg-[#f6f7f9] px-8 h-[56px] rounded-xl">
                   <option value="">Select Your Time</option>
                   <option value="" >08:00 AM</option>
                     <option value="" >09:00 AM</option>
